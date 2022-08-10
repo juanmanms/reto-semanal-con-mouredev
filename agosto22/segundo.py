@@ -1,3 +1,6 @@
+# Dado un listado de números, encuentra el SEGUNDO más grande.
+
+# listado dado
 numeros = [1, 2, 5, 4, 17, 17, 4, 15, 9, 10]
 n1=0
 n2=0
