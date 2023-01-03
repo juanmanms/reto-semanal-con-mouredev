@@ -6,13 +6,12 @@
 #   con el alfabeto y los números en "leet".
 #   (Usa la primera opción de cada transformación. Por ejemplo "4" para la "a")
 
-# - El programa debe recibir un texto y transformarlo a "leet".
-# def leer texto
+
 def  leer_texto ():
     texto =  input ( "Introduce un texto: " )
     return texto
 
-# def transformar texto
+
 def traducir_leet(texto):
     leet = {
         "a": "4",
@@ -28,7 +27,7 @@ def traducir_leet(texto):
             texto = texto.replace(letra, leet[letra])
     return texto
 
-# def imprimir texto
+
 def imprimir_texto(texto):
     print (texto)
 
