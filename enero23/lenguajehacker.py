@@ -21,6 +21,7 @@ def traducir_leet(texto):
         "o": "0",
         "s": "5",
         "t": "7",
+        " ": "_",
     }
     for letra in texto:
         if letra in leet:
